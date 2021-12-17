@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControlProject1", "HandyControlProject1\HandyControlProject1.csproj", "{0CCDF34B-765E-466A-855D-6FAD05BFAD0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCDF34B-765E-466A-855D-6FAD05BFAD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCDF34B-765E-466A-855D-6FAD05BFAD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCDF34B-765E-466A-855D-6FAD05BFAD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCDF34B-765E-466A-855D-6FAD05BFAD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {094690B0-7906-463D-B60E-A8E5656DDC1A}
+	EndGlobalSection
+EndGlobal
