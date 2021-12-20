@@ -24,11 +24,28 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            dg.ItemsSource = new List<Model>() {
+                new Model(){Index = 0 , Remark = "12345"},
+                new Model(){Index = 2 , Remark = "sfdgfd"},
+                new Model(){Index = 3 , Remark = "dgfdg"},
+                new Model(){Index = 4 , Remark = "sfdsfdsf"},
+            };
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             HandyControl.Controls.MessageBox.Show("xxxxx");
         }
+
+
+
+    }
+
+
+    public class Model
+    {
+        public bool IsSelected { get; set; }
+        public int Index { get; set; }
+        public string Remark { get; set; }
     }
 }
